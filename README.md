@@ -1,4 +1,4 @@
-# arduino
+# Arduino
  An electronic component.
 ***
 
@@ -10,7 +10,7 @@
 
 •It has an operating voltage of 5V while the input voltage may vary from 6V to 12V.
  
-## arduino structure 
+## Arduino structure 
 ![ard](https://cdn.sparkfun.com/assets/b/f/e/9/c/513824face395f6d3d000000.png)
 
 ### 1) Power source
@@ -69,12 +69,19 @@ The voltage regulator  controls the amount of voltage that is let into the Ardui
 ***
 
 ## Applications
-1)Prototyping and education. 
+1)Prototyping and education.
+ 
 2)Home automation. 
+
 3)Robotics. 
+
 4)Internet of Things (IoT). 
+
 5)Wearable electronics. 
+
 6)Embedded systems.  
-7)Security systems.  
+
+7)Security systems.
+  
 8)Interactive displays.  
 
