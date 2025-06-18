@@ -47,7 +47,7 @@ The voltage regulator  controls the amount of voltage that is let into the Ardui
 
 ## Features
 
-1) ATmega328P microcontroller ( 16Mhz).  
+1)ATmega328P microcontroller ( 16Mhz).  
 
 2)Digital I/O pins that can also serve as Pulse Width Modulation (PWM) outputs
 
