@@ -7,4 +7,4 @@
 
 •It has an operating voltage of 5V while the input voltage may vary from 6V to 12V.
  
-<https://images.app.goo.gl/5997myKyvppZJarR6>
+![ard](https://images.app.goo.gl/5997myKyvppZJarR6)
