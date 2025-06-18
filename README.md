@@ -1,2 +1,3 @@
 # arduino
- an electronic component 
+ An electronic component.
+ Arduino is a developemnt board
