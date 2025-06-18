@@ -10,7 +10,7 @@
 
 •It has an operating voltage of 5V while the input voltage may vary from 6V to 12V.
  
-
+##arduino structure 
 ![ard](https://cdn.sparkfun.com/assets/b/f/e/9/c/513824face395f6d3d000000.png)
 
 ## 1) Power source
@@ -21,15 +21,15 @@ The USB cable also helps to upload code into the board.
 -This includes 5V, 3.3V, GND, Analog, Digital, PWM, AREF,Vin pins.
 -The pins on Arduino are the places where you connect wires to construct a circuit ( which is generally through breadboard).The Arduino has several different kinds of pins, each of which is labeled on the board and used for different functions.
 
-i) GND (3): Short for ‘Ground’. There are several GND pins on the Arduino, any of which can be used to ground your circuit.  
+i) __GND (3)__: Short for ‘Ground’. There are several GND pins on the Arduino, any of which can be used to ground your circuit.  
 
-ii) 5V (4) & 3.3V (5): The 5V pin supplies 5 volts of power, and the 3.3V pin supplies 3.3 volts of power.
+ii) __5V (4) & 3.3V (5)__: The 5V pin supplies 5 volts of power, and the 3.3V pin supplies 3.3 volts of power.
 
-iii) Analog (6): The pins under the ‘Analog In’ label (A0-A5 on the UNO) are Analog In pins. These pins can read the signal from an analog sensor (like a temperature sensor) and convert it into a digital value which can be read.
+iii) __Analog (6)__: The pins under the ‘Analog In’ label (A0-A5 on the UNO) are Analog In pins. These pins can read the signal from an analog sensor (like a temperature sensor) and convert it into a digital value which can be read.
 
-iv) Digital (7): The digital pins (0-13 on the UNO). These pins can be used for both digital input  and digital output.
+iv) __Digital (7)__: The digital pins (0-13 on the UNO). These pins can be used for both digital input  and digital output.
 
-v) PWM (8): The tilde (~) next to the digital pins (3, 5, 6, 9, 10, and 11 on the UNO) represents PWM. These pins act as normal digital pins, but can also be used Pulse-Width Modulation (PWM). These are used for converting digital signals to analog signals for results.
+v) __PWM (8)__: The tilde (~) next to the digital pins (3, 5, 6, 9, 10, and 11 on the UNO) represents PWM. These pins act as normal digital pins, but can also be used Pulse-Width Modulation (PWM). These are used for converting digital signals to analog signals for results.
 
-vi) AREF (9): Stands for Analog Reference. It is used to set an external reference voltage (between 0 and 5 Volts).
+vi) __AREF (9)__: Stands for Analog Reference. It is used to set an external reference voltage (between 0 and 5 Volts).
 
