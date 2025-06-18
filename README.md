@@ -32,4 +32,14 @@ iv) __Digital (7)__: The digital pins (0-13 on the UNO). These pins can be used 
 v) __PWM (8)__: The tilde (~) next to the digital pins (3, 5, 6, 9, 10, and 11 on the UNO) represents PWM. These pins act as normal digital pins, but can also be used Pulse-Width Modulation (PWM). These are used for converting digital signals to analog signals for results.
 
 vi) __AREF (9)__: Stands for Analog Reference. It is used to set an external reference voltage (between 0 and 5 Volts).
+## 3) Reset Button
+Arduino has a reset button (10). Pushing it will temporarily connect the reset pin to ground and restart any code that is loaded on the Arduino. 
 
+## 4) Power LED Indicator
+There’s a tiny LED next to the word ‘ON’ (11). This LED should light up whenever you plug your Arduino into a power source. This tells us if the working condition of the circuit board is perfect or not.
+
+## 5) TX RX LEDs
+TX is short for transmit, RX is short for receive.These LEDs will give us visual indications whenever our Arduino is receiving or transmitting data during uploading code onto the board.
+
+## 6)Voltage Regulator
+The voltage regulator  controls the amount of voltage that is let into the Arduino board which is upto 20V.
