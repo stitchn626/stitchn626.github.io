@@ -46,6 +46,7 @@ The voltage regulator  controls the amount of voltage that is let into the Ardui
 ***
 
 ## Features
+
 1) ATmega328P microcontroller ( 16Mhz).  
 
 2)Digital I/O pins that can also serve as Pulse Width Modulation (PWM) outputs
@@ -56,7 +57,7 @@ The voltage regulator  controls the amount of voltage that is let into the Ardui
 
 5)Serial (UART), I2C, and SPI communication interfaces.
 
-6)USB Interface
+6)USB Interface. 
 -Used for programming the microcontroller and serial communication with a computer or other device.  
 -Enables the Arduino Integrated Development Environment (IDE) on a computer, where users can write and upload code to the board.
 
