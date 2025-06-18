@@ -65,4 +65,16 @@ The voltage regulator  controls the amount of voltage that is let into the Ardui
 
 8)Onboard LEDs
 
-9)Boards being compatible with many shields and accessories
+9)Boards being compatible with many shields and accessories.
+***
+
+## Applications
+1)Prototyping and education. 
+2)Home automation. 
+3)Robotics. 
+4)Internet of Things (IoT). 
+5)Wearable electronics. 
+6)Embedded systems.  
+7)Security systems.  
+8)Interactive displays.  
+
