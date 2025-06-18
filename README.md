@@ -10,7 +10,7 @@
 
 •It has an operating voltage of 5V while the input voltage may vary from 6V to 12V.
  
-##arduino structure 
+## arduino structure 
 ![ard](https://cdn.sparkfun.com/assets/b/f/e/9/c/513824face395f6d3d000000.png)
 
 ## 1) Power source
