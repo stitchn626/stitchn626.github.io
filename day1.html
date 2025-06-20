@@ -1,87 +1,112 @@
-# Arduino
- An electronic component.
-***
 
-•Arduino is an open-source platform used for building electronics projects.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arduino Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
 
-• It is a developement board developed by Arduino.cc and is based on Atmega328 Microcontroller.
+    <div class="section">
+        <h1>Arduino</h1>
+        <p><strong>An electronic component.</strong></p>
+        <p>• Arduino is an open-source platform used for building electronics projects.</p>
+        <p>• It is a development board developed by Arduino.cc and is based on Atmega328 Microcontroller.</p>
+        <p>• The software used for writing, compiling & uploading code to Arduino boards is called Arduino IDE (Integrated Development Environment), which is free to download from Arduino Official Site.</p>
+        <p>• It has an operating voltage of 5V while the input voltage may vary from 6V to 12V.</p>
+    </div>
 
-•The software used for writing, compiling & uploading code to Arduino boards is called Arduino IDE (Integrated Development Environment), which is free to download from Arduino Official Site.
+    <div class="section">
+        <h2>Arduino Structure</h2>
+        <img src="https://cdn.sparkfun.com/assets/b/f/e/9/c/513824face395f6d3d000000.png" alt="Arduino Diagram">
 
-•It has an operating voltage of 5V while the input voltage may vary from 6V to 12V.
+        <h3>1) Power Source</h3>
+        <p>The Arduino UNO can be powered from a USB cable coming from your computer or a wall power supply terminated in a barrel jack. The USB cable also helps to upload code into the board.</p>
+
+        <h3>2) Pins</h3>
+        <p>This includes 5V, 3.3V, GND, Analog, Digital, PWM, AREF, Vin pins. These pins are where you connect wires to build a circuit (typically through a breadboard).</p>
+        <ul>
+            <li><strong>GND:</strong> Ground pins.</li>
+            <li><strong>5V & 3.3V:</strong> Supplies 5 volts and 3.3 volts respectively.</li>
+            <li><strong>Analog:</strong> A0–A5, used for reading analog signals.</li>
+            <li><strong>Digital:</strong> 0–13, used for digital input/output.</li>
+            <li><strong>PWM:</strong> Marked with ~ (pins 3, 5, 6, 9, 10, 11), used for analog output via PWM.</li>
+            <li><strong>AREF:</strong> Analog Reference, used to set an external reference voltage.</li>
+        </ul>
+
+        <h3>3) Reset Button</h3>
+        <p>Pushing this button restarts any code loaded on the Arduino.</p>
+
+        <h3>4) Power LED Indicator</h3>
+        <p>This LED lights up when the board is powered, indicating it's working correctly.</p>
+
+        <h3>5) TX RX LEDs</h3>
+        <p>TX (Transmit) and RX (Receive) LEDs blink during data transmission or receiving.</p>
+
+        <h3>6) Voltage Regulator</h3>
+        <p>Regulates the voltage coming into the Arduino to ensure safe operation (up to 20V).</p>
+    </div>
+
+    <div class="section">
+        <h2>Features</h2>
+        <ul>
+            <li>ATmega328P microcontroller (16 MHz)</li>
+            <li>Digital I/O pins with PWM capability</li>
+            <li>10-bit Analog-to-Digital Converter (ADC)</li>
+            <li>Power via USB, external supply, or voltage regulator</li>
+            <li>Supports Serial (UART), I2C, and SPI communication</li>
+            <li>USB interface for programming and communication</li>
+            <li>Reset button</li>
+            <li>Onboard LEDs</li>
+            <li>Compatibility with shields and accessories</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Applications</h2>
+        <ul>
+            <li>Prototyping and education</li>
+            <li>Home automation</li>
+            <li>Robotics</li>
+            <li>Internet of Things (IoT)</li>
+            <li>Wearable electronics</li>
+            <li>Embedded systems</li>
+            <li>Security systems</li>
+            <li>Interactive displays</li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
  
-## Arduino structure 
-![ard](https://cdn.sparkfun.com/assets/b/f/e/9/c/513824face395f6d3d000000.png)
-
-### 1) Power source
- The Arduino UNO can be powered from a USB cable coming from your computer (1) or a wall power supply that is terminated in a barrel jack (2).   
-The USB cable also helps to upload code into the board.
-
-### 2)Pins 
--This includes 5V, 3.3V, GND, Analog, Digital, PWM, AREF,Vin pins.
--The pins on Arduino are the places where you connect wires to construct a circuit ( which is generally through breadboard).The Arduino has several different kinds of pins, each of which is labeled on the board and used for different functions.
-
-i) __GND (3)__: Short for ‘Ground’. There are several GND pins on the Arduino, any of which can be used to ground your circuit.  
-
-ii) __5V (4) & 3.3V (5)__: The 5V pin supplies 5 volts of power, and the 3.3V pin supplies 3.3 volts of power.
-
-iii) __Analog (6)__: The pins under the ‘Analog In’ label (A0-A5 on the UNO) are Analog In pins. These pins can read the signal from an analog sensor (like a temperature sensor) and convert it into a digital value which can be read.
-
-iv) __Digital (7)__: The digital pins (0-13 on the UNO). These pins can be used for both digital input  and digital output.
-
-v) __PWM (8)__: The tilde (~) next to the digital pins (3, 5, 6, 9, 10, and 11 on the UNO) represents PWM. These pins act as normal digital pins, but can also be used Pulse-Width Modulation (PWM). These are used for converting digital signals to analog signals for results.
-
-vi) __AREF (9)__: Stands for Analog Reference. It is used to set an external reference voltage (between 0 and 5 Volts).
-### 3) Reset Button
-Arduino has a reset button (10). Pushing it will temporarily connect the reset pin to ground and restart any code that is loaded on the Arduino. 
-
-### 4) Power LED Indicator
-There’s a tiny LED next to the word ‘ON’ (11). This LED should light up whenever you plug your Arduino into a power source. This tells us if the working condition of the circuit board is perfect or not.
-
-### 5) TX RX LEDs
-TX is short for transmit, RX is short for receive.These LEDs will give us visual indications whenever our Arduino is receiving or transmitting data during uploading code onto the board.
-
-### 6)Voltage Regulator
-The voltage regulator  controls the amount of voltage that is let into the Arduino board which is upto 20V.
-***
-
-## Features
-
-1)ATmega328P microcontroller ( 16Mhz).  
-
-2)Digital I/O pins that can also serve as Pulse Width Modulation (PWM) outputs
-
-3)Analog-to-Digital Converter (ADC), supports 10-bit resolution
-
-4)Power the boards via USB, an external power supply, or a voltage regulator
-
-5)Serial (UART), I2C, and SPI communication interfaces.
-
-6)USB Interface. 
--Used for programming the microcontroller and serial communication with a computer or other device.  
--Enables the Arduino Integrated Development Environment (IDE) on a computer, where users can write and upload code to the board.
-
-7)Reset button
-
-8)Onboard LEDs
-
-9)Boards being compatible with many shields and accessories.
-***
-
-## Applications
-1)Prototyping and education.
- 
-2)Home automation. 
-
-3)Robotics. 
-
-4)Internet of Things (IoT). 
-
-5)Wearable electronics. 
-
-6)Embedded systems.  
-
-7)Security systems.
-  
-8)Interactive displays.  
-
