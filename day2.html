@@ -4,16 +4,132 @@
     <title>Learning HTML </title>
   </head>
   <body>
+    <h1> Learning HTML</h1>
    
-    <p>This repository documents my journey of learning HTML, the foundation of building web pages. The goal is to understand HTML structure, tags, and best practices for creating clean, semantic web pages. This project serves both as a learning record and a practical portfolio of code examples and mini-projects.</p>
-     <h2> Introduction </h2>
-    <p>HTML stands for HyperText Markup Language. It is the standard language used to create and design the structure of web pages. Every website on the internet uses HTML in some form, making it a fundamental skill for web development.
-</p>
-    <h2>Basic Structure of HTML </h2>
-    <p>HTML provides the basic structure of web pages using tags and elements. It tells the browser how to display text, images, links, forms, and other content.
-</p>
-   <h4>Tags and Elements:</h4>
-<p>HTML uses tags like &lt;p&gt;, &lt;a&gt;, &lt;img&gt;, etc., to mark different parts of a webpage.</p>
+    <p>This repository documents my journey of learning HTML, the foundation of building web pages. The goal is to understand HTML structure, tags, and best practices for creating clean, semantic web pages. This project serves both as a learning record and a practical portfolio of code examples and how to write reports on projects.</p>
+     <h3> Introduction </h3>
+    <p>HTML stands for HyperText Markup Language.  It is used to define the structure and layout of a webpage. With HTML, we tell the browser what content to display and how it should be organized.
+
+While CSS styles the content and JavaScript adds behavior, HTML provides the skeleton.
+      <h3>Basic Structure Of An HTML Document</h3>
+      <!-- struct-->
+      &le;!DOCTYPE html &ge;
+      &le;html&ge;
+      &le;head&ge;
+      &le;title&ge; my first webpage &le;/title&ge;
+      &le;/head&ge;
+      &le;body&ge;
+      &le;h1&ge; hello world &le;/h1&ge;
+     &le; p&ge; my first web page created. &le;/p&ge;
+      &le;/body&ge;
+      &le;/html&ge;
+
+<!-- description of struct -->
+    <ul>
+    
+ <li><h4> &le;!DOCTYPE html&ge; </h4></li>
+
+This declaration defines the document as an HTML5 document.
+
+It must be the first line of your HTML file.
+
+<li> <h4> &le;html&ge;</h4></li>
+
+The root element that wraps the entire content of your HTML page.
+
+All other elements go inside this tag.
+
+<li><h4>&le;head&ge;</h4> </li>
+
+Contains metadata and information about the document that is not displayed directly on the web page.
+
+It can include:
+
+<h5> &le;title&ge;</h5> – sets the page title in the browser tab
+
+<h5> &le;meta&ge;</h5>– defines character set, viewport, etc.
+
+<h5> &le;link&ge;</h5> – connects to external stylesheets
+
+<h5> &le;title&ge;</h5> -Sets the title of the web page, which appears on the browser tab.
+
+Example:  &le;title&ge;Home Page &le;/title&ge;
+
+<li> <h4> &le;body&ge;</h4> </li>
+
+Contains all the visible content of the web page, such as text, images, links, and more.
+
+Everything that appears in the browser is placed here.
+
+ <h5> Commonly Used HTML Tags</h5>
+      <ol>
+<li><h5> Text Tags</h5></li>
+        <ul>
+<li><h6>&le;h1&ge; to &le;h6&ge;</h6></li>: Heading tags, where &le;h1&ge; is the largest and &le;h6&ge; is the smallest.
+
+<li><h6>&le;p&ge;</h6></li>: Paragraph tag — wraps blocks of text.
+
+<li><h6>&le;br&ge;</h6></li>: Line break — starts the next content on a new line.
+
+<li><h6>&le;hr&ge;</h6></li>: Horizontal rule — creates a visible line separator.
+        </ul>
+ <li><h5>Links and Images</h5></li>
+        <ul>
+<li><h6>&le;a href="URL"&ge;Link text&le;/a&ge;</h6></li>: Anchor tag to create hyperlinks.
+
+<h6><li>&le;img src="image.jpg" alt="description"&ge;</h6></li>: Displays an image.
+</ul>
+src is the image path.
+
+alt is alternative text shown if the image can't load.
+
+<li><h5> Lists</h5></li>
+<h6>&le;ul&ge;</h6>: Unordered list (bullets)
+
+<h6>&le;ol&ge;</h6>: Ordered list (numbers)
+
+
+<h6>&le;li&ge;</h6>: List item (used inside <ul> or <ol>)
+
+Example:
+
+html
+Copy code
+&le;ul&ge;
+  &le;li&ge;Apples&le;/li&ge;
+  &le;li&ge;Bananas&le;/li&ge;
+&le;/ul&ge;
+<h5><li> Tables</h5></li>
+&le;table&ge;: Starts a table
+
+&le;tr&ge;: Table row
+
+&le;td&ge;: Table data/cell
+
+&le;th&ge;: Table header
+
+
+
+ <h5><li>Semantic HTML Tags</h5></li>
+Semantic tags give meaning to the structure and improve accessibility and SEO.
+
+Examples:
+
+<header>: Represents the top section of a page.
+
+<nav>: Navigation links.
+
+<main>: Main content of the document.
+
+<section>: Group of related content.
+
+<article>: Independent, self-contained content.
+
+<footer>: Bottom section, usually for copyright or links.
+
+</ol>
+    
+      
 
 
   </body>
